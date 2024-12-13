@@ -5,7 +5,7 @@ export class NewsItem extends Component {
     let { title, description, imageUrl, newsUrl, author, date, source} = this.props;
     return (
       <div className="my-3">
-        <div className="card" style={{ margin: "1rem 2rem" }}>
+        <div className="card" style={{ margin: "2rem 3rem" }}>
           <img
             src={
               imageUrl
